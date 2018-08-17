@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Quickstartpack</title>
+	<!-- bootstrap 4.0 css -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<!-- fontawsome 4.7.0 css -->
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<!-- main style -->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<style>
+		.bg {
+			background-position: center;
+			background-size: cover;
+		}
+		.img-bg {
+			background-image: url(assets/img/1.jpg);
+		}
+		.section-area {
+			position: relative;
+		}
+		.img-bg {
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 47%;
+		}
+a.play-btn {
+    position: absolute;
+    top: 50%;
+    right: -40px;
+    width: 80px;
+    height: 80px;
+    background: #17A05E;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    transform: translateY(-50%);
+}
+
+ul.check-list {
+    margin:  0;
+    padding:  0;
+    list-style:  none;
+}
+
+ul.check-list li {
+    position:  relative;
+    padding-left: 30px;
+}
+
+.check-list li:before {
+    font-family: FontAwesome;
+    content: '\f00c';
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+	</style>
+	<!-- jquery 1.12.4(stable version) -->
+	<script src="assets/js/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+
+<section class="section-area">
+	<div class="img-box img-bg bg">
+		<a href="#" class="play-btn"><i class="fa fa-play"></i></a>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 offset-6">
+				<div class="text-box">
+					<h2>Lorem ipsum dolor sit amet.</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto at porro nihil illum cumque, id sapiente explicabo. Minus similique explicabo laborum rerum labore accusantium officiis iure, aliquam, ut, facilis unde?</p>
+					<ul class="check-list">
+						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, eius?</li>
+						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, eius?</li>
+						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, eius?</li>
+						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, eius?</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+	
+
+	
+	<!-- pooper js -->
+	<script src="assets/js/popper.min.js"></script>
+	<!-- bootstrap js -->
+	<script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
